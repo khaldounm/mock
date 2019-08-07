@@ -1,71 +1,142 @@
 {
-    "flags": [{
-        "id": "1",
-        "name": "Flag name",
-        "state": "on",
-        "application": "rook-ui",
-        "version": "v1.1.0",
-        "environment": "dev",
-        "expiry": "2019-08-01 09:00:00 GMT"
-    }, {
-        "id": "2",
-        "name": "rich text editor for exit capture",
-        "state": "on",
-        "application": "campaigns",
-        "version": "v1.5.0",
-        "environment": "staging",
-        "expiry": "2019-07-11 12:00:00 GMT"
-    }, {
-        "id": "3",
-        "name": "campaign pausing",
-        "state": "off",
-        "application": "campaigns",
-        "version": "v1.5.0",
-        "environment": "prod",
-        "expiry": "2019-06-02 14:00:00 GMT"
-    }],
+	"flags": [{
+		"id": "1",
+		"name": "Flag name",
+		"state": "on",
+		"application": "rook-ui",
+		"version": "v1.1.0",
+		"environment": "dev",
+		"expiry": "2019-08-01 09:00:00 GMT"
+	}, {
+		"id": "2",
+		"name": "rich text editor for exit capture",
+		"state": "on",
+		"application": "campaigns",
+		"version": "v1.5.0",
+		"environment": "staging",
+		"expiry": "2019-07-11 12:00:00 GMT"
+	}, {
+		"id": "3",
+		"name": "campaign pausing",
+		"state": "off",
+		"application": "campaigns",
+		"version": "v1.5.0",
+		"environment": "prod",
+		"expiry": "2019-06-02 14:00:00 GMT"
+	}],
 
-    "platformWides": [{
-        "id": "1",
-        "campaign": "Cart Reminders",
-        "us": "on",
-        "eu": "on",
-        "apac": "on"
-    }, {
-        "id": "2",
-        "campaign": "Exit Capture",
-        "us": "on",
-        "eu": "on",
-        "apac": "on"
-    }, {
-        "id": "3",
-        "campaign": "Visit Capture",
-        "us": "on",
-        "eu": "on",
-        "apac": "on"
-    }, {
-        "id": "4",
-        "campaign": "Cart Recovery",
-        "us": "on",
-        "eu": "on",
-        "apac": "on"
-    }, {
-        "id": "5",
-        "campaign": "Content Editing",
-        "us": "off",
-        "eu": "on",
-        "apac": "off"
-    }, {
-        "id": "6",
-        "campaign": "Overlay Editing",
-        "us": "on",
-        "eu": "on",
-        "apac": "off"
-    }, {
-        "id": "7",
-        "campaign": "Looker",
-        "us": "off",
-        "eu": "on",
-        "apac": "off"
-    }]
+	"platformWides": [{
+		"id": "1",
+		"campaign": "Cart Reminders",
+		"us": "on",
+		"eu": "on",
+		"apac": "on"
+	}, {
+		"id": "2",
+		"campaign": "Exit Capture",
+		"us": "on",
+		"eu": "on",
+		"apac": "on"
+	}, {
+		"id": "3",
+		"campaign": "Visit Capture",
+		"us": "on",
+		"eu": "on",
+		"apac": "on"
+	}, {
+		"id": "4",
+		"campaign": "Cart Recovery",
+		"us": "on",
+		"eu": "on",
+		"apac": "on"
+	}, {
+		"id": "5",
+		"campaign": "Content Editing",
+		"us": "off",
+		"eu": "on",
+		"apac": "off"
+	}, {
+		"id": "6",
+		"campaign": "Overlay Editing",
+		"us": "on",
+		"eu": "on",
+		"apac": "off"
+	}, {
+		"id": "7",
+		"campaign": "Looker",
+		"us": "off",
+		"eu": "on",
+		"apac": "off"
+	}],
+	"regionFlags": [{
+		"id": "1",
+		"feature": "Cart Reminders",
+		"state": "on",
+		"regions": [{
+			"us": "off",
+			"eu": "off",
+			"apac": "off"
+		}],
+		"expiry": "2019-09-01 09:00:00 GMT"
+	}, {
+		"id": "2",
+		"feature": "Exit Capture",
+		"state": "on",
+		"regions": [{
+			"us": "off",
+			"eu": "off",
+			"apac": "off"
+		}],
+		"expiry": "2019-09-09 09:00:00 GMT"
+	}, {
+		"id": "3",
+		"feature": "Visit Capture",
+		"state": "on",
+		"regions": [{
+			"us": "beta",
+			"eu": "on",
+			"apac": "on"
+		}],
+		"expiry": "2019-09-05 09:00:00 GMT"
+	}, {
+		"id": "4",
+		"feature": "Cart Recovery",
+		"state": "on",
+		"regions": [{
+			"us": "on",
+			"eu": "on",
+			"apac": "on"
+		}],
+		"expiry": "2019-06-05 09:00:00 GMT"
+	}, {
+		"id": "5",
+		"feature": "Content Editing",
+		"state": "on",
+		"regions": [{
+			"us": "on",
+			"eu": "on",
+			"apac": "on"
+		}],
+		"expiry": "2019-09-10 09:00:00 GMT"
+	}, {
+		"id": "6",
+		"feature": "Overlay Editing",
+		"state": "on",
+		"regions": [{
+			"us": "off",
+			"eu": "beta",
+			"apac": "off"
+		}],
+		"expiry": "2019-10-05 09:00:00 GMT"
+	}, {
+		"id": "7",
+		"feature": "Looker",
+		"state": "off",
+		"regions": [{
+			"us": "off",
+			"eu": "off",
+			"apac": "off"
+		}],
+		"expiry": "2019-11-01 09:00:00 GMT"
+	}]
 }
