@@ -69,154 +69,154 @@
 		"apac": "off"
 	}],
 	"regionFlags": [{
-    id: '1',
-    feature: 'Cart Reminders',
-    state: 'on',
-    regions: [
+    "id": '1',
+    "feature": 'Cart Reminders',
+    "state": 'on',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'on'
+        "regionName": 'us',
+        "regionState": 'on'
       },
       {
-        regionName: 'eu',
-        regionState: 'on'
+        "regionName": 'eu',
+        "regionState": 'on'
       },
       {
-        regionName: 'apac',
-        regionState: 'off'
+        "regionName": 'apac',
+        "regionState": 'off'
       }
     ],
-    expiry: '2019-09-01 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3'],
+    "expiry": '2019-09-01 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3'],
     lastEdit: {
-      userId: '0001',
+      user"id": '0001',
       editDate: '2019-08-01 09:00:00 GMT'
     }
   },
   {
-    id: '2',
-    feature: 'Exit Capture',
-    state: 'on',
-    regions: [
+    "id": '2',
+    "feature": 'Exit Capture',
+    "state": 'on',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'on'
+        "regionName": 'us',
+        "regionState": 'on'
       },
       {
-        regionName: 'eu',
-        regionState: 'on'
+        "regionName": 'eu',
+        "regionState": 'on'
       },
       {
-        regionName: 'apac',
-        regionState: 'off'
+        "regionName": 'apac',
+        "regionState": 'off'
       }
     ],
-    expiry: '2019-09-09 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3']
+    "expiry": '2019-09-09 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3']
   },
   {
-    id: '3',
-    feature: 'Visit Capture',
-    state: 'on',
-    regions: [
+    "id": '3',
+    "feature": 'Visit Capture',
+    "state": 'on',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'on'
+        "regionName": 'us',
+        "regionState": 'on'
       },
       {
-        regionName: 'eu',
-        regionState: 'on'
+        "regionName": 'eu',
+        "regionState": 'on'
       },
       {
-        regionName: 'apac',
-        regionState: 'off'
+        "regionName": 'apac',
+        "regionState": 'off'
       }
     ],
-    expiry: '2019-09-05 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3']
+    "expiry": '2019-09-05 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3']
   },
   {
-    id: '4',
-    feature: 'Cart Recovery',
-    state: 'on',
-    regions: [
+    "id": '4',
+    "feature": 'Cart Recovery',
+    "state": 'on',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'off'
+        "regionName": 'us',
+        "regionState": 'off'
       },
       {
-        regionName: 'eu',
-        regionState: 'on'
+        "regionName": 'eu',
+        "regionState": 'on'
       },
       {
-        regionName: 'apac',
-        regionState: 'off'
+        "regionName": 'apac',
+        "regionState": 'off'
       }
     ],
-    expiry: '2019-06-05 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3']
+    "expiry": '2019-06-05 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3']
   },
   {
-    id: '5',
-    feature: 'Content Editing',
-    state: 'on',
-    regions: [
+    "id": '5',
+    "feature": 'Content Editing',
+    "state": 'on',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'on'
+        "regionName": 'us',
+        "regionState": 'on'
       },
       {
-        regionName: 'eu',
-        regionState: 'on'
+        "regionName": 'eu',
+        "regionState": 'on'
       },
       {
-        regionName: 'apac',
-        regionState: 'on'
+        "regionName": 'apac',
+        "regionState": 'on'
       }
     ],
-    expiry: '2019-09-10 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3']
+    "expiry": '2019-09-10 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3']
   },
   {
-    id: '6',
-    feature: 'Overlay Editing',
-    state: 'on',
-    regions: [
+    "id": '6',
+    "feature": 'Overlay Editing',
+    "state": 'on',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'on'
+        "regionName": 'us',
+        "regionState": 'on'
       },
       {
-        regionName: 'eu',
-        regionState: 'beta'
+        "regionName": 'eu',
+        "regionState": 'beta'
       },
       {
-        regionName: 'apac',
-        regionState: 'off'
+        "regionName": 'apac',
+        "regionState": 'off'
       }
     ],
-    expiry: '2019-10-05 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3']
+    "expiry": '2019-10-05 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3']
   },
   {
-    id: '7',
-    feature: 'Looker',
-    state: 'off',
-    regions: [
+    "id": '7',
+    "feature": 'Looker',
+    "state": 'off',
+    "regions": [
       {
-        regionName: 'us',
-        regionState: 'off'
+        "regionName": 'us',
+        "regionState": 'off'
       },
       {
-        regionName: 'eu',
-        regionState: 'off'
+        "regionName": 'eu',
+        "regionState": 'off'
       },
       {
-        regionName: 'apac',
-        regionState: 'off'
+        "regionName": 'apac',
+        "regionState": 'off'
       }
     ],
-    expiry: '2019-11-01 09:00:00 GMT',
-    merchants: ['merchantId1', 'merchantId2', 'merchantId3']
+    "expiry": '2019-11-01 09:00:00 GMT',
+    "merchants": ['merchantId1', 'merchantId2', 'merchantId3']
   }]
 }
