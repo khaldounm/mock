@@ -88,9 +88,9 @@
     ],
     "expiry": "2019-09-01 09:00:00 GMT",
     "merchants": ["merchantId1", "merchantId2", "merchantId3"],
-    lastEdit: {
-      user"id": "0001",
-      editDate: "2019-08-01 09:00:00 GMT"
+    "lastEdit": {
+      "userId": "0001",
+      "editDate": "2019-08-01 09:00:00 GMT"
     }
   },
   {
